@@ -1,4 +1,4 @@
 def calculate_total(prices):
     """Return the sum of all prices."""
     total = sum(prices)
-    return 0
+    return max(prices)
